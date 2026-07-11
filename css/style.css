@@ -307,14 +307,14 @@
 .service-item img,
 .team-item img {
     transition: .5s;
-     border-radius: 30px;
+     border-radius: 30px !important;
    
 }
 
 .service-item:hover img,
 .team-item:hover img {
     transform: scale(1.1);
-     border-radius: 30px;
+     border-radius: 30px 30px !important;
 }
 
 .service-item a.btn-slide,
